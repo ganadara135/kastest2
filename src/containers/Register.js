@@ -58,7 +58,7 @@ export default function Register() {
                 placeholder="Password"
               />
             </Form.Item>
-            <Form.Item>
+            {/* <Form.Item>
               <Form.Item name="remember" valuePropName="checked" noStyle>
                 <Checkbox>Remember me</Checkbox>
               </Form.Item>
@@ -66,11 +66,11 @@ export default function Register() {
               <Link className="login-form-forgot">
                 Forgot password
               </Link>
-            </Form.Item>
+            </Form.Item> */}
 
             <Form.Item>
               <Button type="primary" htmlType="submit" className="login-form-button">
-                Register
+                회원가입
               </Button>
               Or <Link to="/auth/login">Already have an account!</Link>
             </Form.Item>

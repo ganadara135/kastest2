@@ -112,11 +112,11 @@ export default function ValueTransfer() {
 
   return (          
       <div className="Transfer">
-        KLAY 전송
+        KLAY 전송  <br />
+        <Typography.Text> 계정정보조회 메뉴에서 KLAY 가 있는 주소를 사용하세요!! </Typography.Text>
       <Row align="middle" className="transfer-form">
-        
-        <Col span={9} offset={1}>
 
+        <Col span={9} offset={1}>
           <Form
             name="klay_transfer"
             className="login-form"

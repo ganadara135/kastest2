@@ -58,7 +58,7 @@ export default function Login() {
                 placeholder="Password"
               />
             </Form.Item>
-            <Form.Item>
+            {/* <Form.Item>
               <Form.Item name="remember" valuePropName="checked" noStyle>
                 <Checkbox>Remember me</Checkbox>
               </Form.Item>
@@ -66,13 +66,13 @@ export default function Login() {
               <Link className="login-form-forgot">
                 Forgot password
               </Link>
-            </Form.Item>
+            </Form.Item> */}
 
             <Form.Item>
               <Button type="primary" htmlType="submit" className="login-form-button">
                 Log in
         </Button>
-        Or <Link to="/auth/register">register now!</Link>
+        Or <Link to="/auth/register"> 회원가입(첫사용 시 회원가입후 사용)</Link>
             </Form.Item>
           </Form>
         </Col>
