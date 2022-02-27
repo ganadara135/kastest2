@@ -1,3 +1,13 @@
+
+# 개발환경
+1. KAS(Klaytn API Service) 서버에 React Web 이 직접 접속하게 개발
+2. KLAY 전송에 사용할 수 있는 주소는 테스트넷인 Baobob 사용
+3. 첫 접속시 회원가입후 진행(아이디 비번 간단한 값 넣이 생성, 브라우저 localstorage 에 저장)
+
+
+
+## 아래는 Create-React-App 사용법
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
