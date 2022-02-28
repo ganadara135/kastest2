@@ -91,7 +91,7 @@ export default function Auth() {
             <Route path="/main/AccountList" component={AccountList} />
             <Route path="/main/AccountInfo" component={AccountInfo} />
             <Route path="/main/ValueTransfer" component={ValueTransfer} />            
-            <Redirect to="/main" />
+            <Redirect to="/main/" />
           </Switch>
         </Content>
         

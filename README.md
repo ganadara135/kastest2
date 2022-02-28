@@ -5,6 +5,8 @@
 3. 첫 접속시 회원가입후 진행(아이디 비번 간단한 값 넣이 생성, 브라우저 localstorage 에 저장)
 4. Redux, Saga 기능 반영, 계정목록조회 메뉴에만 반영(AccountList.js)
 
+배포주소 : [https://ganadara135.github.io/kastest2]
+
 <br/>
 
 ## 아래는 Create-React-App 사용법
