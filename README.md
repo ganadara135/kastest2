@@ -7,6 +7,8 @@
 
 배포주소 : [https://ganadara135.github.io/kastest2]
 
+.env add on .gitignore
+
 <br/>
 
 ## 아래는 Create-React-App 사용법
